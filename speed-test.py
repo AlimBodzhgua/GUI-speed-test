@@ -1,8 +1,10 @@
 from wonderwords import RandomWord
 import tkinter as tk
+import threading
+
 from tkinter import ttk
 
-import threading
+
 
 class SpeedTestGUI:
     window = tk.Tk()
